@@ -1,2 +1,2 @@
-# Employee-Entry-Advanced-Project
-Employee Entry application
+# basic-project
+basic project template for java
