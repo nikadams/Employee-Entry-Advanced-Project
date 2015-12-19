@@ -7,6 +7,7 @@
  */
 package com.sqa.na.employees;
 
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -21,10 +22,11 @@ import java.util.Scanner;
  * @since 1.0
  */
 public class EmployeeEntry {
-
 	private static String[] addresses;
 
 	private static String[] ages;
+
+	private static List<Employee> employees;
 
 	private static String[] jobTitles;
 
