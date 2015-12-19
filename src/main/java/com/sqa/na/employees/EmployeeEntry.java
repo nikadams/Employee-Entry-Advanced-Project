@@ -40,6 +40,8 @@ public class EmployeeEntry {
 
 	private static String[] newNames;
 
+	private static int newtest;
+
 	private static Scanner scanner;
 
 	public static boolean addEmployees() {
