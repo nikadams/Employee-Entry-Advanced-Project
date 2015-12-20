@@ -25,6 +25,7 @@ package com.sqa.na.employees;
 public abstract class AbstractPerson implements IPerson {
 
 	private String address;
+
 	private int age;
 	private String name;
 
@@ -81,6 +82,24 @@ public abstract class AbstractPerson implements IPerson {
 	 */
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	/**
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("This ");
+		builder.append(this.getClass().getSimpleName());
+		builder.append(" who lives at ");
+		builder.append(this.address);
+		builder.append(" and is only ");
+		builder.append(this.age);
+		builder.append(" year old.  Welcome ");
+		builder.append(this.name);
+		builder.append("!");
+		return builder.toString();
 	}
 
 }
